@@ -7,7 +7,7 @@ interface LabelProps{
 
 const Label = ({label, htmlFor}:LabelProps) => {
   return (
-    <label htmlFor={htmlFor}>{label}</label>
+    <label htmlFor={htmlFor} className='text-xs '>{label}</label>
   )
 }
 
