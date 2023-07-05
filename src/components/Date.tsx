@@ -8,7 +8,7 @@ const Date = () => {
   });
 
   return (
-    <div className='w-full h-20 flex justify-center items-center bg-gradient-to-r from-[#6EDEF2] to-[#469DDD]'>
+    <div className='w-full h-[4rem] flex justify-center items-center bg-gradient-to-r from-[#6EDEF2] to-[#469DDD]'>
       <p className='text-center text-white text-lg'>{todaysDate}</p>
     </div>
   );
